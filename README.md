@@ -20,12 +20,10 @@ A real-time yoga pose detection and classification system using **MoveNet** for 
 ```
 
 Yoga-Pose-Detection/
-├── utils\yoga_keypoints_moveNet.csv        # Dataset with 34 keypoints + label
-├── model\_training.py                 # Train MLP classifier
-├── live\_pose\_detection.py            # Real-time webcam pose classification
-├── image\_video\_inference.py          # Run detection on images or videos
-├── artifacts/                        # Saved models and scalers
-├── utils.py                          # Common utility functions
+├── utils/yoga_keypoints_moveNet.csv        # Dataset with 34 keypoints + label
+├── model training collab/YOLO+Mediapipe_40Pose.ipynb        # Contain model training code
+├── models/yoga_pose_model_40.h5        # Main trained model to use
+├── yoga_classifier_model_implementation.ipynb     # Main model implementation code
 ├── README.md                         # Documentation
 
 ````
@@ -41,10 +39,3 @@ Yoga-Pose-Detection/
 * Joblib
 
 ---
-
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
