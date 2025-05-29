@@ -1,0 +1,6 @@
+# Ignore yoga dataset folder
+Yoga Dataset/
+utils/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
